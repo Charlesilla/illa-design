@@ -20,7 +20,7 @@ import { Radio } from "@illa-dedign/radio"
 
 | 参数名         | 描述           | 类型                                                         | 默认值 |
 | -------------- | -------------- | ------------------------------------------------------------ | ------ |
-| colorScheme    | 气泡的背景颜色 | `"white" \| "blackAlpha" \| "gray" \| "grayBlue" \| "red" \| "orange" \| "yellow" \| "green"  \| "blue" \| "cyan" \| "purple" \| string` | `blue` |
+| colorScheme    | 选项的背景颜色 | `"white" \| "blackAlpha" \| "gray" \| "grayBlue" \| "red" \| "orange" \| "yellow" \| "green"  \| "blue" \| "cyan" \| "purple" \| string` | `blue` |
 | value          | 控件的 value   | `T`                                                            | `-`      |
 | disabled       | 是否禁用       | `boolean`                                                      | `-`      |
 | checked        | 当前是否被选中 | `boolean`                                                      | `-`      |
@@ -38,9 +38,10 @@ import { Radio } from "@illa-dedign/radio"
 | ------------ | --------------------------------------------------- | ------------------------------------------------------------ | ------------ |
 | name         | 对单选框组的命名                                    | `string`                                                       | `- `           |
 | value        | 被选中的单选框的值                                  | `T`                                                            | `-`            |
+| variant      | 选项的展示样式                                     |	`"button" \| "radio"`	                                           |`radio`|
 | colorScheme  | 气泡的背景颜色                                      | `"white" \| "blackAlpha" \| "gray" \| "grayBlue" \| "red" \| "orange" \| "yellow" \| "green"  \| "blue" \| "cyan" \| "purple" \| string` | `blue`       |
-| disabled     | 禁用全部子单选项 禁用状态，鼠标不可点击且有角标提示 | boolean                                                      | `-`            |
-| defaultValue | 初始选中的值                                        |` T`                                                            | -            |
+| disabled     | 禁用全部子单选项 禁用状态，鼠标不可点击且有角标提示 |`boolean `                                                     | `-`            |
+| defaultValue | 初始选中的值                                        |` T`                                                            | `-`            |
 | options      | 以数组形式配置子选项                                | `string[] \| number[] \| { label: ReactNode; value: any; disabled: boolean }[]` | `- `           |
 | direction    | 单选框组的排列方向                                  | `"vertical" \| "horizontal"`                                   |` horizontal `|
 | spacing      | 单选框之间的间距                                    |` string \| number  `                                           | `24px `      |
