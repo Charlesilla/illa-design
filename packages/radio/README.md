@@ -38,6 +38,7 @@ import { Radio } from "@illa-dedign/radio"
 | ------------ | --------------------------------------------------- | ------------------------------------------------------------ | ------------ |
 | name         | The name of the input field in a radio              | `string   `                                                    | `-   `         |
 | value        | The value to be used in the radio button            | `T `                                                           | `-   `         |
+| variant        | The variant of the radios                         | `"button" \| "radio" `                                         | `radio  `         |
 | colorScheme  | Set background color                                |` "white" \| "blackAlpha" \| "gray" \| "grayBlue" \| "red" \| "orange" \| "yellow" \| "green"  \| "blue" \| "cyan" \| "purple" \| string `| `blue`       |
 | disabled     | Whether the radio is disabled                       | `boolean `                                                     |` - `           |
 | defaultValue | To set default value                                | `T  `                                                          |` -   `         |
